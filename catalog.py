@@ -8,7 +8,7 @@ def cal_num(g, num, object):
                     if object in line:
                         num += 1
     return num
-
+    
 cnum = cal_num(os.walk(".\\effective\\"), 0, "<!-- [C++]")
 cnum = cal_num(os.walk(".\\C++ primer\\"), cnum, "<!-- [C++]")
 unum = cal_num(os.walk(".\\other\\"), 0, "<!-- [unity]")
