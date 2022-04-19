@@ -1,5 +1,4 @@
 import os
-
 def cal_num(g, num, object):
     for path, _, file_list in g:  
         for file_name in file_list: 
